@@ -1,6 +1,6 @@
 # Shopping-cart-with-react.js
 
-**Shopping cart demo with [YourQoute](https://reactjs.org/)!**
+**Shopping cart  [DEMO](https://shopping-cart-70d1a.firebaseapp.com/)!**
 
 ## TECHNOLOGIES USED
 
