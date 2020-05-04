@@ -1,0 +1,35 @@
+.header{
+    height: 60px;
+    border-bottom: 1px solid $border-color;
+    .header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    h6{
+
+    }
+        .card-btn{
+            position: relative;
+            img{
+                width: 32px;
+            }
+        }
+        .counter{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: red;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            font-size: 9px;
+            font-weight: 800;
+        }
+
+}
+}
