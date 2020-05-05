@@ -32,7 +32,7 @@ const Cart = React.memo(props => {
                     &#43;
                   </button>
                 </div>
-              <button className="delete-btn" onClick={()=> deleteCartItem(index)}>
+              <button className="delete-btn" onClick={()=> deleteCartItem(index,item.id)}>
                 <img className="icon" src="./delete.svg" />
               </button>
             </div>

@@ -100,10 +100,20 @@ class EditProfile extends React.Component {
     }
     this.setState({ cartData: cartData }, () => this.calculateCartValue());
   }
-  deleteCartItem(index) {
+  deleteCartItem(index,id) {
     const cartData = [...this.state.cartData];
     cartData.splice(index, 1);
     this.setState({ cartData: cartData }, () => this.calculateCartValue());
+
+    this.setState({
+      products: this.state.products.filter((item) => {
+        if (item.id == id) {
+          item.inCart = false;
+        }
+        return item;
+      }),
+    });
+
   }
 
   calculateCartValue() {
